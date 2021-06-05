@@ -36,9 +36,7 @@ function TestPull(){
                     <span key={row.firstname}>{'Judge: ' + row.firstname + ' ' + row.lastname}</span>
                 </p>
                 <p>
-                    <span key={row.judgecellphonenumber}>{row.judgecellphonenumber}</span>
-                    {/* <span key={row.defenseteamcode}>{row.defenseteamcode + ': ' + row.defensetotal}</span> */}
-                    <span key={row.judgeemail}>{row.judgeemail}</span>
+                    <span key={row.defenseteamcode}>{row.defenseteamcode + ': ' + row.defensetotal}</span>
                 </p>
             </div>
         )
